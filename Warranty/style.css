@@ -1,0 +1,125 @@
+
+@font-face {
+    font-family: "light";
+    src: url("fonts/Cairo-Light.ttf");
+  }
+  
+  @font-face {
+    font-family: "regular";
+    src: url("fonts/Cairo-Regular.ttf");
+  }
+  
+  @font-face {
+    font-family: "medium";
+    src: url("fonts/Cairo-Medium.ttf");
+  }
+  
+  @font-face {
+    font-family: "bold";
+    src: url("fonts/Cairo-Bold.ttf");
+  }
+  
+  @font-face {
+    font-family: "semibold";
+    src: url("fonts/Cairo-SemiBold.ttf");
+  }
+  body{
+    direction: ltr;
+    font-family: 'regular';
+}
+
+.copyright-content{
+    padding: 15px 0 !important ;
+    min-height: unset !important;
+}
+.copyright-content p{
+    margin-bottom: 0;
+    font-family: 'light' !important;
+}
+  
+.footer-content{
+    padding: 15px 0 !important;
+}
+.footer-content .widget{
+    margin-bottom: 0;
+}
+.footer-content .widget .list{
+display: flex;
+flex-direction: row;
+gap: 30px;
+justify-content: center;
+align-items: center;
+}
+.footer-content .widget .list a{
+    font-family: 'regular' !important;
+}
+#services{
+    padding: 20px 0;
+}
+#services h2{
+    font-family: 'bold' !important;
+}
+#services p{
+    font-family: 'regular' !important;
+}
+#services .icon-box  h3{
+/* margin: 0 55px 10px 14px ; */
+font-family: 'bold' !important;
+}
+#services .icon-box  p{
+    /* margin: 0 50px 10px 14px ; */
+    font-family: 'regular' !important;
+}
+#about{
+    padding: 20px 0;
+}
+#about h2{
+    font-family: 'bold' !important;
+}
+#about p{
+    font-family: 'regular' !important;
+}
+#about .visible img{
+    object-fit: cover;
+}
+#about .visible h4{
+    text-align: center;
+    font-family: 'bold' !important;
+}
+.services{
+    padding: 20px 0;
+}
+.services .heading-text{
+text-align: center;
+}
+.services .heading-text h2{
+    font-family: 'bold' !important;
+}
+.services .heading-text span{
+    font-family: 'regular' !important;
+}
+.heading-text.heading-section h2:before{
+    /* left: unset !important;
+    right: unset !important; */
+}
+.services .visible {
+    margin-bottom: 30px;
+}
+.services .visible img{
+    object-fit: contain;
+    width: 100%;
+    height: 400px;
+}
+.services .visible h4{
+    text-align: center;
+    font-family: 'bold' !important;
+    text-align: start;
+}
+.services .visible p{
+    text-align: justify;
+    font-family: 'regular' !important;
+}
+
+#mainMenu ul li a{
+    color: #000 !important;
+}
